@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>WorldSkills</title>
+</head>
+
+<body>
+
+    <body style="background-color: lightblue;">
+        <html lang="en">
+
+        <h1>
+            <font color="purple">WorldSkills</font>
+        </h1>
+        <hr>
+
+
+        <h2><a href="https://www.portaldaindustria.com.br/senai/canais/brasilnaworldskills/a-worldskills-2019/"> Sobre a
+                WorldSkills</a></h2>
+        <p>A WorldSkills é a maior competição de educação profissional do mundo. Realizada a cada dois anos, reúne
+            jovens de diversos países para competir em várias categorias de habilidades técnicas e profissionais.</p>
+
+        <h2><a href="https://pt.wikipedia.org/wiki/WorldSkills">Histórico</a></h2>
+        <p>A WorldSkills foi fundada em 1946 e desde então tem promovido a excelência em educação e treinamento técnico.
+            Ao longo dos anos, a competição tem crescido e agora conta com a participação de mais de 74 países.</p>
+
+        <h2><a
+                href="https://www.dn.senac.br/educacao-profissional/competicoes-profissionais/worldskills/#:~:text=A%20WorldSkills%20Competition%20%C3%A9%20a,de%20mais%20de%2070%20pa%C3%ADses.">Competições</a>
+        </h2>
+        <p>As competições da WorldSkills abrangem uma ampla gama de áreas técnicas e vocacionais, incluindo tecnologia
+            da informação, manufatura, construção, serviços e muito mais. Cada competição testa as habilidades dos
+            participantes em um ambiente de pressão semelhante ao do trabalho real.</p>
+        <br>
+        <h2><a href="https://worldskills.org/">Contato</a></h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <ul>
+            <li>Email: contato@worldskills.org</li>
+            <li>Endereço: Av. Competição, 1000, São Paulo, Brasil</li>
+        </ul>
+        <hr>
+        <h1>Inscreva-se na na WorldSkills</h1>
+        <form action="/submit-inscricao" method="post">
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+
+            <label for="pais">País:</label><br>
+            <input type="text" id="pais" name="pais" required><br><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" required><br><br>
+
+            <label for="habilidade">Habilidade:</label><br>
+            <select id="habilidade" name="habilidade" required>
+                <option value="tecnologia">Tecnologia da Informação</option>
+                <option value="construcao">Construção Civil</option>
+                <option value="manufatura">Manufatura</option>
+                <option value="servicos">Serviços</option>
+                <option value="outra">Outra</option>
+            </select><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+            <button>Enviar</button>
+
+
+        </form>
+
+
+
+    </body>
+
+</html>
